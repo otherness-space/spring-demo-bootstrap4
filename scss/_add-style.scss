@@ -149,9 +149,11 @@ pre[class*="language-"] {
 @media (max-width: 61.99875em) {
   h1 {
     font-size: calc(3.998em * .8);
+    margin: 0 0 0 calc(.0625*1em);
   }
 
   .h1 {
     font-size: calc(3.998em * .8);
+    margin: 0 0 0 calc(.0625*1em);
   }
 }
