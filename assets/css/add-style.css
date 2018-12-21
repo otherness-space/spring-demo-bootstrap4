@@ -41,6 +41,10 @@ header h1,
 header h2,
 header h3 {}
 
+header h1 {
+  margin: 0;
+}
+
 header h4 {
   font-style: italic;
   margin: 0;
