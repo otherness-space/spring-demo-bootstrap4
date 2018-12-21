@@ -281,7 +281,9 @@ article pre[class*="language-"] {}
   h1,
   .h1,
   h2,
-  .h2 {
+  .h2,
+  h3,
+  .h3 {
     margin: 0 0 calc(.0625*1em) 0;
   }
 
