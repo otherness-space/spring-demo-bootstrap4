@@ -92,19 +92,23 @@ footer {
   font-size: .5em;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: calc(3.998em * .9);
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 2.827em;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 1.999em;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 1.414em;
 }
 
@@ -129,6 +133,8 @@ a:hover {}
 a:active {}
 
 a:visited {}
+
+.container {}
 
 /**
 * PrismJS style edits
@@ -167,12 +173,16 @@ article pre[class*="language-"] {}
 // > 400px
 @media (min-width: 25em) {
   header h1 {}
+
+  .container {}
 }
 
 @media (min-width: 29.9375em) {
   main {}
 
   section {}
+
+  .container {}
 
   p,
   pre[class*="language-"] {}
@@ -192,6 +202,8 @@ article pre[class*="language-"] {}
 
   section {}
 
+  .container {}
+
   article h1,
   article h2,
   article h3,
@@ -205,7 +217,11 @@ article pre[class*="language-"] {}
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 36em) {}
+@media (min-width: 36em) {
+  .container {
+    max-width: 33.75em;
+  }
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 48em) {
@@ -214,6 +230,10 @@ article pre[class*="language-"] {}
   nav {}
 
   section {}
+
+  .container {
+    max-width: 40em;
+  }
 
   .header-box,
   .nav-box {}
@@ -225,35 +245,51 @@ article pre[class*="language-"] {}
 @media (min-width: 62em) {}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 75em) {}
+@media (min-width: 75em) {
+  .container {
+    max-width: 45em;
+  }
+}
 
 // Extra small devices (portrait phones, less than 576px)
 /* @media (max-width: 575.98px) {} */
-@media (max-width: 35.99875em) {}
+@media (max-width: 35.99875em) {
+  .container {}
+}
 
 // Small devices (landscape phones, less than 768px)
 /* @media (max-width: 767.98px) {} */
-@media (max-width: 47.99875em) {}
+@media (max-width: 47.99875em) {
+  .container {}
+}
 
 // Medium devices (tablets, less than 992px)
 /* @media (max-width: 991.98px) {} */
 @media (max-width: 61.99875em) {
+
   h1,
   .h1 {
     font-size: calc(3.998em * .8);
     margin: 0 0 calc(.0625*1em) 0;
   }
+
   h4,
   .h4 {
     padding: 0 0 0 calc(.125*1em);
   }
+
+  .container {}
 }
 
-@media (max-width: 63.81125em) {}
+@media (max-width: 63.81125em) {
+  .container {}
+}
 
 // Large devices (desktops, less than 1200px)
 /* @media (max-width: 1199.98px) {} */
-@media (max-width: 74.99875em) {}
+@media (max-width: 74.99875em) {
+  .container {}
+}
 
 // Extra large devices (large desktops)
 // No media query since the extra-large breakpoint has no upper bound on its width

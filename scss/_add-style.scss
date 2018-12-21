@@ -146,6 +146,24 @@ pre[class*="language-"] {
   }
 }
 
+@media (min-width: 36em) {
+  .container {
+    max-width: 33.75em;
+  }
+}
+
+@media (min-width: 48em) {
+  .container {
+    max-width: 40em;
+  }
+}
+
+@media (min-width: 75em) {
+  .container {
+    max-width: 45em;
+  }
+}
+
 @media (max-width: 61.99875em) {
   h1 {
     font-size: calc(3.998em * .8);
