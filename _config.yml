@@ -7,7 +7,7 @@ plugins:
   # - jekyll-gist
   # - jekyll-github-metadata
   # - jekyll-paginate
-  # - jekyll-relative-links
+  - jekyll-relative-links
   # - jekyll-optional-front-matter
   # - jekyll-readme-index
   # - jekyll-default-layout
@@ -38,7 +38,7 @@ exclude:
   - node_modules
   - LICENSE
   - Makefile
-# - README.md
+  # - README.md
   - package.json
   - package-lock.json
   - yarn.lock
