@@ -48,7 +48,7 @@ header h1 {
 header h4 {
   font-style: italic;
   margin: 0;
-  padding: 0 0 0 calc(.25*1em);
+  padding: 0 0 calc(.18*1em) calc(.25*1em);
 }
 
 .header-box,
@@ -74,7 +74,7 @@ nav ul li {}
 nav ul li:hover {}
 
 .nav-shadow-sm {
-      box-shadow: 0 .0625em .25em rgba(0,0,0,.45) !important;
+      box-shadow: 0.0625em 0.125em 0.0625em rgba(0,0,0,0.2) !important;
 }
 
 main {
