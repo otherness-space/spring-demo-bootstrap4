@@ -73,6 +73,10 @@ nav ul li {}
 
 nav ul li:hover {}
 
+nav .shadow-sm {
+      box-shadow: 0 .0625em .25em rgba(0,0,0,.375) !important;
+}
+
 main {
   margin: 0 auto;
   border: 0;
