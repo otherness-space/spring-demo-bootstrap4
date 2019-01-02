@@ -72,7 +72,7 @@ codesniffer.ruleset.xml export-ignore
 
 ### .gitignore [≪](#read-me)
 
-```*~
+```
 _site
 .sass-cache
 node_modules
