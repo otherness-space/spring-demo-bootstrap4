@@ -186,21 +186,16 @@ Third party resources applied in this repo. Each resource uses a GPL compatible 
     -   [![GitHub forks](https://img.shields.io/github/forks/marcanuy/jekyll-bootstrap4.svg?style=social)](https://github.com/marcanuy/jekyll-bootstrap4/network) [![GitHub stars](https://img.shields.io/github/stars/marcanuy/jekyll-bootstrap4.svg?style=social)](https://github.com/marcanuy/jekyll-bootstrap4/stargazers) [![GitHub license](https://img.shields.io/github/license/marcanuy/jekyll-bootstrap4.svg?style=social)](https://github.com/marcanuy/jekyll-bootstrap4/blob/master/LICENSE)
 -   This repository is my fork with my edits to suit my repo [https://github.com/otherness-space/jekyll-bootstrap4#testing-locally](https://github.com/otherness-space/jekyll-bootstrap4#testing-locally).
     -   [![GitHub forks](https://img.shields.io/github/forks/otherness-space/jekyll-bootstrap4.svg?style=social)](https://github.com/otherness-space/jekyll-bootstrap4/network) [![GitHub stars](https://img.shields.io/github/stars/otherness-space/jekyll-bootstrap4.svg?style=social)](https://github.com/otherness-space/jekyll-bootstrap4/stargazers) [![GitHub license](https://img.shields.io/github/license/otherness-space/jekyll-bootstrap4.svg?style=social)](https://github.com/otherness-space/jekyll-bootstrap4/blob/master/LICENSE)
--   NPM
-    -   The npm application
-    -   Copyright (c) npm, Inc. and Contributors
-    -   Licensed on the terms of The Artistic License 2.0
-    -   [![Build Status](https://img.shields.io/travis/npm/cli/latest.svg?style=social)](https://travis-ci.org/npm/cli) [![GitHub release](https://img.shields.io/github/release/npm/cli.svg?style=social)](https://github.com/npm/cli) [![npm version](https://img.shields.io/npm/v/npm.svg?style=social)](https://www.npmjs.com/package/npm) [![GitHub forks](https://img.shields.io/github/forks/npm/cli.svg?style=social)](https://github.com/npm/cli/network) [![GitHub stars](https://img.shields.io/github/stars/npm/cli.svg?style=social)](https://github.com/npm/cli/stargazers) [![GitHub license](https://img.shields.io/github/license/npm/cli.svg?style=social)](https://github.com/npm/cli/blob/latest/LICENSE)
--   Bootstrap
+-   Bootstrap v4.1.3
     -   Sleek, intuitive, and powerful front-end framework for faster and easier web development.
     -   Copyright (c) 2011-2018 Twitter, Inc.
     -   Copyright (c) 2011-2018 The Bootstrap Authors
     -   [![Build Status](https://img.shields.io/travis/twbs/bootstrap/v4-dev.svg?style=social)](https://travis-ci.org/twbs/bootstrap) [![GitHub release](https://img.shields.io/github/release/twbs/bootstrap.svg?style=social)](https://github.com/twbs/bootstrap) [![npm version](https://img.shields.io/npm/v/bootstrap.svg?style=social)](https://www.npmjs.com/package/bootstrap) [![Gem version](https://img.shields.io/gem/v/bootstrap.svg?style=social)](https://rubygems.org/gems/bootstrap) [![GitHub forks](https://img.shields.io/github/forks/twbs/bootstrap.svg?style=social)](https://github.com/twbs/bootstrap/network) [![GitHub stars](https://img.shields.io/github/stars/twbs/bootstrap.svg?style=social)](https://github.com/twbs/bootstrap/stargazers) [![GitHub license](https://img.shields.io/github/license/twbs/bootstrap.svg?style=social)](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE) [![devDependency Status](https://img.shields.io/david/dev/twbs/bootstrap.svg?style=social)](https://david-dm.org/twbs/bootstrap?type=dev)
--   jQuery
+-   jQuery v3.3.1
     -   jQuery JavaScript Library
     -   Copyright JS Foundation and other contributors, [https://js.foundation/](https://js.foundation/)
     -   [![Build Status](https://img.shields.io/travis/jquery/jquery.svg?style=social)](https://travis-ci.org/jquery/jquery) [![GitHub release](https://img.shields.io/github/release/jquery/jquery.svg?style=social)](https://github.com/jquery/jquery) [![npm version](https://img.shields.io/npm/v/jquery.svg?style=social)](https://www.npmjs.com/package/jquery) [![GitHub forks](https://img.shields.io/github/forks/jquery/jquery.svg?style=social)](https://github.com/jquery/jquery/network) [![GitHub forks](https://img.shields.io/github/forks/jquery/jquery.svg?style=social)](https://github.com/jquery/jquery/network) [![GitHub stars](https://img.shields.io/github/stars/jquery/jquery.svg?style=social)](https://github.com/jquery/jquery/stargazers) [![GitHub license](https://img.shields.io/github/license/jquery/jquery.svg?style=social)](https://github.com/jquery/jquery/blob/master/LICENSE.txt)
--   Popper.js
+-   Popper.js v1.14.6
     -   A library used to position poppers in web applications.
     -   A popper is an element on the screen which "pops out" from the natural flow of your application.
     -   Common examples of poppers are tooltips, popovers, and drop-downs.
