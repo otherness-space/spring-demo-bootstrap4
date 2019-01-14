@@ -128,6 +128,22 @@ h4 {
   word-wrap: break-word;
 }
 
+.container {
+  padding: 0 .625em;
+}
+
+.navbar-padding {
+  padding: .5em 1em 0 1em;
+}
+
+.nav-locate {
+  margin: 0 auto;
+}
+
+.blog-page-padding {
+  padding-inline-start: 0;
+}
+
 pre {
   font-size: calc(1.2*1em);
 }
@@ -156,9 +172,21 @@ pre[class*="language-"] {
   }
 }
 
+@media (min-width: 35em) {
+  .navbar {
+    .nav-item {
+      margin: 0 2em;
+    }
+  }
+}
+
 @media (min-width: 36em) {
   .container {
     max-width: 33.75em;
+  }
+
+  .nav-locate {
+    margin: 0 auto;
   }
 }
 
@@ -214,5 +242,9 @@ pre[class*="language-"] {
 
   .h4 {
     padding: 0 0 0 calc(.125*1em);
+  }
+
+  .nav-locate {
+    margin: 0;
   }
 }

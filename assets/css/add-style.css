@@ -74,7 +74,7 @@ nav ul li {}
 nav ul li:hover {}
 
 .nav-shadow-sm {
-      box-shadow: 0.0625em 0.125em 0.0625em rgba(0,0,0,0.2) !important;
+  box-shadow: 0.0625em 0.125em 0.0625em rgba(0, 0, 0, 0.2) !important;
 }
 
 main {
@@ -144,7 +144,21 @@ a:active {}
 
 a:visited {}
 
-.container {}
+.container {
+  padding: 0 .625em;
+}
+
+.navbar-padding {
+  padding: .5em 1em 0 1em;
+}
+
+.nav-locate {
+  margin: 0 auto;
+}
+
+.blog-page-padding {
+  padding-inline-start: 0;
+}
 
 /**
 * PrismJS style edits
@@ -208,6 +222,10 @@ article pre[class*="language-"] {}
   .nav-box,
   p {}
 
+  .navbar .nav-item {
+    margin: 0 2em;
+  }
+
   main {}
 
   section {}
@@ -230,6 +248,9 @@ article pre[class*="language-"] {}
 @media (min-width: 36em) {
   .container {
     max-width: 33.75em;
+  }
+  .nav-locate {
+    margin: 0 auto;
   }
 }
 
@@ -299,6 +320,10 @@ article pre[class*="language-"] {}
   h4,
   .h4 {
     padding: 0 0 0 calc(.125*1em);
+  }
+
+  .nav-locate {
+    margin: 0;
   }
 
   .container {}
