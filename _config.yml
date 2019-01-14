@@ -1,6 +1,9 @@
-highlighter:   none
-# excerpt_separator: <!--more-->
-# markdown:    kramdown
+highlighter: none
+url: https://otherness-space.github.io/spring-demo-bootstrap4
+excerpt_separator: <!--more-->
+markdown: kramdown
+# enable_analytics: true
+
 plugins:
   # default
   # - jekyll-coffeescript
@@ -13,7 +16,7 @@ plugins:
   # - jekyll-default-layout
   # - jekyll-titles-from-headings
   # optional
-  # - jekyll-feed
+  - jekyll-feed
   # - jekyll-redirect-from
   # - jekyll-seo-tag
   # - jekyll-sitemap
