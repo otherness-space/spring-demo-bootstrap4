@@ -98,8 +98,9 @@ aside {
   font-size: .707em;
 }
 
-footer {
-  font-size: .5em;
+footer,
+.footer {
+  font-size: .4em;
 }
 
 h1,
@@ -160,6 +161,30 @@ a:visited {}
   padding-inline-start: 0;
 }
 
+.hangingindent {
+  padding-left: 4em ;
+  text-indent: -2em ;
+}
+
+/** Designed, built, and released under MIT license by mdo http://github.com/poole/poole. */
+
+.citation,
+.revision {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  margin: 0 0 2em 0;
+}
+
+/**
+  * color: #aaa;
+  */
+.revision {
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+/**
+  * color: #C1C1C1;
+  */
 /**
 * PrismJS style edits
 */
@@ -249,6 +274,7 @@ article pre[class*="language-"] {}
   .container {
     max-width: 33.75em;
   }
+
   .nav-locate {
     margin: 0 auto;
   }

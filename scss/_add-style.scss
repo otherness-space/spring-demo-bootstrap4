@@ -88,7 +88,11 @@ aside {
 }
 
 footer {
-  font-size: .5em;
+  font-size: .4em;
+}
+
+.footer {
+  font-size: .4em;
 }
 
 h1 {
@@ -142,6 +146,23 @@ h4 {
 
 .blog-page-padding {
   padding-inline-start: 0;
+}
+
+.hangingindent {
+  padding-left: 4em;
+  text-indent: -2em;
+}
+
+.citation {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  margin: 0 0 2em 0;
+}
+
+.revision {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  margin: 0 0 2em 0;
+  margin-bottom: 4em;
+  text-align: center;
 }
 
 pre {
