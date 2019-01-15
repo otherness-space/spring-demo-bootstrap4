@@ -1,8 +1,16 @@
 highlighter: none
 url: https://otherness-space.github.io/spring-demo-bootstrap4
+timezone: America/New_York
+incremental: true
+
 excerpt_separator: <!--more-->
 markdown: kramdown
 # enable_analytics: true
+
+# Where things are
+collections:
+  posts:
+    output: true
 
 plugins:
   # default
@@ -33,13 +41,16 @@ sass:
     # - node_modules
   style: compressed
 
+# Handling Reading
+encoding: utf-8
+
 include:
   - permalink: /404.html
   - assets/js
 
 exclude:
   - node_modules
-  - LICENSE
+  # - LICENSE
   - Makefile
   # - README.md
   - package.json
