@@ -1,5 +1,5 @@
 highlighter: none
-url: https://otherness-space.github.io/spring-demo-bootstrap4
+# url: https://otherness-space.github.io/spring-demo-bootstrap4
 timezone: America/New_York
 incremental: true
 
@@ -7,9 +7,11 @@ excerpt_separator: <!--more-->
 markdown: kramdown
 # enable_analytics: true
 
+script:
+  - JEKYLL_ENV=production bundle exec jekyll build
+
 # Where things are
-collections:
-  posts:
+posts:
     output: true
 
 plugins:
