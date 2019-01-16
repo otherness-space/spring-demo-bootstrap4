@@ -100,7 +100,7 @@ aside {
 
 footer,
 .footer {
-  font-size: .4em;
+  font-size: calc(.8*1em);
 }
 
 h1,
@@ -162,8 +162,8 @@ a:visited {}
 }
 
 .hangingindent {
-  padding-left: 4em ;
-  text-indent: -2em ;
+  padding-left: 2.5em ;
+  text-indent: -2.5em ;
 }
 
 /** Designed, built, and released under MIT license by mdo http://github.com/poole/poole. */
@@ -171,7 +171,6 @@ a:visited {}
 .citation,
 .revision {
   font-family: Menlo, Monaco, "Courier New", monospace;
-  margin: 0 0 2em 0;
 }
 
 /**
@@ -179,7 +178,7 @@ a:visited {}
   */
 .revision {
   text-align: center;
-  margin-bottom: 4em;
+  margin: 2em auto;
 }
 
 /**

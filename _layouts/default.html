@@ -11,8 +11,8 @@
   {% include navigation.html %}
   {{ content }}
 
-  <div class="justify-content-center container revision">
-    <div class="text-center footer">{% include license.html %} &bull; <a href="#">Colophon</a> &bull; <a href="https://github.com/otherness-space/spring-demo-bootstrap4/commits/master/{{ page.path }}" title="version history on GitHub">Revision
+  <div class="revision justify-content-center container">
+    <div class="text-center">{% include license.html %} &bull; <a href="#">Colophon</a> &bull; <a href="{{ site.url }}commits/master/{{ page.path }}" title="version history on GitHub">Revision
         history for this page</a>
       <!-- The idea for a revision history link lifted shamelessly from https://github.com/ricedh/drafts -->
     </div>

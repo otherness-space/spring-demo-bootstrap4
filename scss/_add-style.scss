@@ -88,11 +88,11 @@ aside {
 }
 
 footer {
-  font-size: .4em;
+  font-size: calc(.8*1em);
 }
 
 .footer {
-  font-size: .4em;
+  font-size: calc(.8*1em);
 }
 
 h1 {
@@ -149,19 +149,17 @@ h4 {
 }
 
 .hangingindent {
-  padding-left: 4em;
-  text-indent: -2em;
+  padding-left: 2.5em;
+  text-indent: -2.5em;
 }
 
 .citation {
   font-family: Menlo, Monaco, "Courier New", monospace;
-  margin: 0 0 2em 0;
 }
 
 .revision {
   font-family: Menlo, Monaco, "Courier New", monospace;
-  margin: 0 0 2em 0;
-  margin-bottom: 4em;
+  margin: 2em auto;
   text-align: center;
 }
 

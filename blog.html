@@ -9,7 +9,7 @@ permalink: /blog/
   <ul class="blog-page-padding list-group">
     {% for post in site.posts %}
       <li class="list-group-item">
-        <h2><a class="container" href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h2><a class="container" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
         <p>{{ post.excerpt | truncatewords: 50}}</p>
       </li>
     {% endfor %}
