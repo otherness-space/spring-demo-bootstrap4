@@ -1,5 +1,6 @@
 highlighter: none
-url: https://otherness-space.github.io/spring-demo-bootstrap4
+url: https://otherness-space.github.io/spring-demo-bootstrap4/
+# url: http://localhost:4000/
 timezone: America/New_York
 incremental: true
 
