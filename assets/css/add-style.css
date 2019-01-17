@@ -161,6 +161,10 @@ a:visited {}
   padding-inline-start: 0;
 }
 
+.cite-top {
+  margin: 2em auto;
+}
+
 .hangingindent {
   padding-left: 2.5em ;
   text-indent: -2.5em ;
