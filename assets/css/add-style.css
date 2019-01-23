@@ -54,7 +54,6 @@ header h4 {
 .header-box,
 .nav-box {}
 
-p,
 .header-box,
 .nav-box {
   margin: 0 auto;
@@ -125,7 +124,8 @@ h4,
 
 /* font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit; */
 p {
-  font-size: calc(1.2*1em);
+  margin: 0 auto calc(.8*1em) auto;
+  font: normal 400 calc(1.5*1em)/1.4 Arial, Helvetica, sans-serif;
 }
 
 article h4 {}
@@ -136,6 +136,16 @@ article p {}
   word-break: break-all;
   word-wrap: break-word;
 }
+
+.p-indent {
+  text-indent: 2.5em;
+}
+
+/* this class seems to break the wordwrap linewrap */
+/* .p-indent::first-line { */
+  /* word-spacing: calc(.3*1em); */
+  /* letter-spacing: calc(.05*1em); */
+/* } */
 
 a {}
 
@@ -166,12 +176,11 @@ a:visited {}
 }
 
 .hangingindent {
-  padding-left: 2.5em ;
-  text-indent: -2.5em ;
+  padding-left: 2.5em;
+  text-indent: -2.5em;
 }
 
 /** Designed, built, and released under MIT license by mdo http://github.com/poole/poole. */
-
 .citation,
 .revision {
   font-family: Menlo, Monaco, "Courier New", monospace;
