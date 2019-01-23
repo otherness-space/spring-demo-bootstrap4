@@ -53,7 +53,7 @@ p {
   box-sizing: border-box;
   display: block;
   font: normal 400 calc(1.5*1em)/1.4 Arial, Helvetica, sans-serif;
-  margin: 0 auto calc(.8*1em) auto;
+  margin: 0 auto calc(.5*1em) auto;
 }
 
 .header-box {
@@ -157,6 +157,7 @@ h4 {
 }
 
 .hangingindent {
+  font: normal normal calc(1.25*1em)/normal "Times New Roman", Times, serif;
   padding-left: 2.5em;
   text-indent: -2.5em;
 }

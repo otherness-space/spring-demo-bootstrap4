@@ -124,7 +124,7 @@ h4,
 
 /* font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit; */
 p {
-  margin: 0 auto calc(.8*1em) auto;
+  margin: 0 auto calc(.5*1em) auto;
   font: normal 400 calc(1.5*1em)/1.4 Arial, Helvetica, sans-serif;
 }
 
@@ -177,6 +177,7 @@ a:visited {}
 
 .hangingindent {
   padding-left: 2.5em;
+  font: normal normal calc(1.25*1em)/normal "Times New Roman", Times, serif;
   text-indent: -2.5em;
 }
 
