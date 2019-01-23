@@ -1,0 +1,14 @@
+<li class="nav-item">
+  <a class="nav-link" href='{{ site.url }}'>home</a>
+</li>
+
+{% for item in site.data.navigation %}
+
+{% if page.url contains item.link %}
+{% include nav-active.html %}
+
+{% else %}
+{% include nav-inactive.html %}
+
+{% endif %}
+{% endfor %}
