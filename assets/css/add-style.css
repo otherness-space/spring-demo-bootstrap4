@@ -99,7 +99,7 @@ aside {
 
 footer,
 .footer {
-  font: normal normal calc(.9*1em)/normal Menlo, Monaco, "Courier New", monospace;
+  font: normal normal calc(1.1*1em)/normal Menlo, Monaco, "Courier New", monospace;
 }
 
 h1,
